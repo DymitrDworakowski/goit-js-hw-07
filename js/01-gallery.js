@@ -33,7 +33,7 @@ const instance = basicLightbox.create(`
     instance.show();
     
 
-     // Закриття модального вікна на клавішу "Escape"
+     // Закриття модального вікна на клавішу "Esc"
 const closeOnEscape = (evt) => {
     if (evt.key === "Escape") {
     instance.close();

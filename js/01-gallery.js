@@ -25,8 +25,9 @@ function onclick(evt) {
 evt.preventDefault();
 if (!evt.target.classList.contains('gallery__image')) {
     return;
+    
 }
-
+console.log(evt);
 const instance = basicLightbox.create(`
     <img src="${evt.target.dataset.source}" width="800" height="600">
 `);
